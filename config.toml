@@ -1,0 +1,60 @@
+baseurl         = "https://www.intelwalk.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Intelwalk's Blog of Nothingness"
+  subtitle    = "So Awesome"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Intelwalk's Blog!"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "intelwalk"
+  #fbName = "none"
+  githubName = "intelwalk"
+
+  logo = ""
+  orgName = "DW"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "DW"
+  authorAvatar = "img/.png"#PROFILE PIC
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://blog.intelwalk.com"
+  authorDescription = "Father, Husband, IT Manager, Coder, and Potential Lunch Winner"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
