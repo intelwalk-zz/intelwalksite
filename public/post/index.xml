@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>https://www.intelwalk.com/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Aug 2019 05:15:47 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.intelwalk.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started SQLite3 Golang</title>
+      <link>https://www.intelwalk.com/getting-started-sqlite3-golang/</link>
+      <pubDate>Mon, 05 Aug 2019 05:15:47 -0500</pubDate>
+      
+      <guid>https://www.intelwalk.com/getting-started-sqlite3-golang/</guid>
+      <description>#Connecting to a SQLite Database using Golang#
+Connecting to a SQLite database is pretty easy with Golang. Below I will show you a basic example of how to access data and print it out to the command line.
+Here will we will need to import the necessary pacakges so we can access the database in our code. We need to use the underscore notation for the sqlite3 package since we only need it for side-affects in our program.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.intelwalk.com/my-first-post/</link>
+      <pubDate>Tue, 30 Jul 2019 14:42:23 -0500</pubDate>
+      
+      <guid>https://www.intelwalk.com/my-first-post/</guid>
+      <description>test</description>
+    </item>
+    
+  </channel>
+</rss>
