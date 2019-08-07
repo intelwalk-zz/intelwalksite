@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 [submodule "themes/hugo-casper-two"]
 	path = themes/hugo-casper-two
 	url = https://github.com/eueung/hugo-casper-two.git
+=======
+
+[submodule "themes/hugo-casper-two"]
+	path = themes/casper-two
+	url = https://github.com/eueung/hugo-casper-two.git
+>>>>>>> 888c003b6eb8165ee89cf601999730623be36f3c
