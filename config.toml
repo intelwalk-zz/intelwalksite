@@ -53,8 +53,3 @@ paginate        = 10
   name = "Projects"
   url = "/categories/projects/"
   weight = 99
-
-[[menu.main]]
-  name = "Contact Me"
-  url = "https://google.com/"
-  weight = 95
