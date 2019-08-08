@@ -2,8 +2,16 @@
 title: "Getting Started SQLite3 Golang"
 date: 2019-08-05T05:15:47-05:00
 draft: false
+image: "sqlitecoveriamge.jpg"
+tags: [
+	"golang",
+	"development",
+	"howto"
+]
+type: "post"
+
 ---
-#<center>Connecting to a  SQLite Database using Golang</center>#
+<center>Connecting to a  SQLite Database using Golang</center>
 
 Connecting to a SQLite database is pretty easy with Golang.  Below I will show you a basic example of how to access data and print it out to the command line.
 
