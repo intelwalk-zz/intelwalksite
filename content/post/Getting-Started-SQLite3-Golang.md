@@ -11,11 +11,11 @@ tags: [
 type: "post"
 
 ---
-<center>Connecting to a  SQLite Database using Golang</center>
+<center>Connecting to a SQLite Database using Golang</center>
 
 Connecting to a SQLite database is pretty easy with Golang.  Below I will show you a basic example of how to access data and print it out to the command line.
 
-Here will we will need to import the necessary pacakges so we can access the database in our code.  We need to use the underscore notation for the sqlite3 package since we only need it for side-affects in our program.
+Here will we will need to import the necessary packages so we can access the database in our code.  We need to use the underscore notation for the sqlite3 package since we only need it for side-affects in our program.
 
 ```go
 import (
@@ -53,18 +53,18 @@ At this time we can also start pumping out log messages for some specific detail
 		log.Fatal(err)
 	}
 ```
-This will allow our query results to be stored in the rows variable and also allow us to trouble shoot with the err if we get an error in return when attempting to retrive our data.  We also need to remember that Query takes a string, be it a string variable or parenthesis seperated string.
+This will allow our query results to be stored in the rows variable and also allow us to trouble shoot with the err if we get an error in return when attempting to retrieve our data.  We also need to remember that Query takes a string, be it a string variable or parenthesis separated string.
 
 ```go
 defer rows.Close()
 ```
-The defer command on rows will deallocate these resources when we are through with them.  This usually needs to be done anytime we are dealing with database reources.  The next part we will finally be getting to some data.
+The defer command on rows will deallocate these resources when we are through with them.  This usually needs to be done anytime we are dealing with database resources.  The next part we will finally be getting to some data.
 
 ```go
 var testdatas []TestData
 var record TestData
 ```
-Surely you will be naming convention will be on spot when your working with your program, but for this example we will keep the names simple.  I will create a slice of our TestData struct that will hold all over our test data that we will be retrieving.  The next variable will be the one I use for the single record per row I'm reading in and then appending (adding) ito the slice.  Slice's are pretty much arrays with nondetermined size allocated.
+Surely you will be naming convention will be on spot when your working with your program, but for this example we will keep the names simple.  I will create a slice of our TestData struct that will hold all over our test data that we will be retrieving.  The next variable will be the one I use for the single record per row I'm reading in and then appending (adding) ito the slice.  Slice's are pretty much arrays with undetermined size allocated.
 
 ```go
 for rows.Next() {
