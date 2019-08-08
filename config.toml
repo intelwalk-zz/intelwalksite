@@ -51,10 +51,10 @@ paginate        = 10
 
 [[menu.main]]
   name = "Projects"
-  url = "/categories/food/"
+  url = "/categories/projects/"
   weight = 99
 
 [[menu.main]]
-  name = "External"
+  name = "Contact Me"
   url = "https://google.com/"
   weight = 95
