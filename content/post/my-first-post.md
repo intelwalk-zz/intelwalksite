@@ -6,4 +6,13 @@ image: "deadendpost.jpg"
 
 ---
 
-test
+#<center>Why Am I Writing This?</center>
+
+Well I would like to say its for the benefit of mankind but that would be a lie.  Its pretty much for the benefit of me be it learning new technologies and keeping a record, discussing fantasy football, or business talk.
+
+I wanted to start using a static site generator and become more proficient in markdown as well.  So I picked Hugo to start using for a static site generaor since GOlang is the new hotness for me.  If anyone has a good Hugo tips and tricks you can go ahead and email me at intelwalk@gmail.com .
+
+You can always check out my twitter at https://twitter.com/intelwalk
+And my GitHub account is at https://github.com/intelwalk
+
+
