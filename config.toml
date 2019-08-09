@@ -6,12 +6,12 @@ paginate        = 10
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "Intelwalk's Blog of Nothingness"
-  subtitle    = "So Awesome"
+  title       = "Intelwalk's Compendium of Intelligence and Nonsense"
+  subtitle    = "All You'll Need To Know"
 
   cover       = "img/blog-cover.jpg"
-  description = "Intelwalk's Blog!"
-  metaDescription = ""
+  description = "Intelwalk's Development, Fantasy Football, and Business Blog"
+  metaDescription = "Intelwalk's Development, Fantasy Football, and Business Blog"
   googleAnalytics = "UA-51054849-1"
   customCSS = []
   RSSLink = ""
