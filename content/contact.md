@@ -1,5 +1,5 @@
 +++
-comments = false
+comments = true
 date = "2015-04-14T22:17:00+00:00"
 draft = false
 noauthor = true
@@ -7,7 +7,7 @@ share = false
 title = "Contact me"
 type = "page"
 [menu.main]
-weight = 111
+weight = 5
 
 +++
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
