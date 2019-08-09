@@ -6,7 +6,7 @@ image: "deadendpost.jpg"
 
 ---
 
-#<center>Why Am I Writing This?</center>
+<center>Why Am I Writing This?</center>
 
 Well I would like to say its for the benefit of mankind but that would be a lie.  Its pretty much for the benefit of me be it learning new technologies and keeping a record, discussing fantasy football, or business talk.
 
