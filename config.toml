@@ -50,6 +50,11 @@ paginate        = 10
   weight = 100
 
 [[menu.main]]
+  name = "Python"
+  url = "/tags/python/"
+  weight = 99
+
+[[menu.main]]
   name = "Projects"
   url = "/categories/projects/"
-  weight = 99
+  weight = 98
